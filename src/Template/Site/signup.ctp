@@ -45,12 +45,6 @@
           </div>
           <div class="form-group">
             <div class="col-sm-10 col-sm-offset-2">
-              <label for="appoinment" class="control-label"><?= __('Cargo') ?> <span class="text-danger">*</span></label>
-              <input type="text" class="form-control input-md" id="appoinment" name="appoinment" placeholder="<?= __('Cargo') ?>" required>
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-10 col-sm-offset-2">
               <label for="phone1" class="control-label"><?= __('Telefono') ?> <span class="text-danger">*</span></label>
               <input type="numeric" class="form-control input-md" id="phone1" name="phone1" placeholder="<?= __('Telefono') ?>" required>
             </div>
