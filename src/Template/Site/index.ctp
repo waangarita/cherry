@@ -89,9 +89,6 @@
           </div>
         </div>
       </div>
-
-      <hr class="spacer-10 no-border"/>
-
     </div>
   </section>
 <?php endif; ?>
