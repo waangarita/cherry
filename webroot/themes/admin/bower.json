@@ -1,0 +1,40 @@
+{
+  "name": "user-manager",
+  "version": "0.0.1",
+  "authors": [
+    " <desarrollos@>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "fontawesome": "~4.5.0",
+    "jquery": "~2.2.0",
+    "ionicons": "~2.0.1",
+    "jquery-ui": "~1.11.4",
+    "bootstrapvalidator": "~0.5.3",
+    "moment": "^2.13.0",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37",
+    "AdminLTE": "admin-lte#^2.3.3",
+    "bootstrap-validator": "^0.10.2",
+    "handlebars": "^4.0.5",
+    "jquery-mask-plugin": "jQuery-Mask-Plugin#^1.14.0",
+    "bootbox.js": "bootbox#^4.4.0",
+    "mjolnic-bootstrap-colorpicker": "bootstrap-colorpicker#^2.3.3",
+    "cropper": "^2.3.4",
+    "tinymce": "^4.4.0",
+    "bootstrap-treeview": "~1.2.0",
+    "AdminLTE": "admin-lte#~2.3.3"
+  },
+  "resolutions": {
+    "jquery": "~2.2.0",
+    "moment": "^2.13.0"
+  }
+}

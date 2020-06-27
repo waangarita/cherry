@@ -1,0 +1,234 @@
+.owl-carousel.owl-theme.slider .owl-dots .owl-dot span {
+  background-color: #d5d5d5;
+}
+
+.owl-carousel.owl-theme:hover .owl-nav div.owl-next {
+  position: absolute;
+  right: -32px;
+}
+
+.owl-carousel.owl-theme:hover .owl-nav div.owl-prev {
+  position: absolute;
+  left: -32px;
+}
+
+.radius_default {
+  border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#no-found {
+  font-size: 10em;
+}
+
+.add_cart_botton {
+  margin: 10px 0 0 1px;
+  padding: 1px;
+  height: 34px;
+}
+
+.add_cart_botton a {
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.add_cart_botton a:hover {
+  border: 1px solid #D91D47;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.price div {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cant_product {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.cant_product span {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  vertical-align: text-bottom;
+}
+
+.cant_product div {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+}
+
+.thumbnail {
+  overflow: hidden;
+}
+
+.thumbnail.store {
+  overflow: hidden;
+}
+
+.thumbnail.store .caption .price {
+  overflow: hidden;
+}
+
+a.success-btn-prod{
+  color: #fff;
+  background-color: #3bab65;
+  border: 1px solid #3bab65;
+}
+
+a.success-btn-prod:hover{
+  background-color: #1f8043;
+  border: 1px solid #1f8043;
+}
+
+.brands-list, .cartSide-list{
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #EEEEEE;
+  padding: 16px 13px;
+  margin: 0;
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cartSide-list{
+  margin-top: 10px;
+  z-index: 2
+}
+
+@media (max-width: 768px) {
+  
+  #form-search .input-group input:nth-of-type(1){
+    height: 40px;
+  }
+
+  .content-faq{
+    padding: 25px 30px;
+  }
+
+  .content-terms{
+    padding: 40px 30px 40px 0;
+    text-align: justify;
+  }
+
+}
+
+/*  BOX PRODUCT */
+
+@media only screen and (min-device-width: 768px) {
+  .thumbnail.store {
+    height: 463px;
+  }
+}
+
+/* Ipad  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .title-search {
+    margin: 5px;
+  }
+  .holder {
+    text-align: center;
+    margin: 0;
+  }
+  .holder a {
+    font-size: 13px;
+    margin: 0px;
+  }
+  .jp-first {
+    display: none;
+  }
+  .jp-last {
+    display: none;
+  }
+}
+
+/* Landscape iphone 6+ */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  #no-found {
+    font-size: 7em;
+  }
+  .thumbnail .store {
+    height: 100%;
+  }
+  .title-search {
+    margin: 5px;
+  }
+  .holder {
+    text-align: center;
+    margin: 0;
+  }
+  .holder a {
+    font-size: 16px;
+    margin: 0px;
+  }
+}
+
+/* ----------- iPhone 6 Landscape ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #no-found {
+    font-size: 7em;
+  }
+  .thumbnail .store {
+    height: 100%;
+  }
+  .title-search {
+    margin: 5px;
+  }
+  .holder {
+    text-align: center;
+    margin: 0;
+  }
+  .holder a {
+    font-size: 16px;
+    margin: 0px;
+  }
+}
+
+/* Device small */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 414px) and (-webkit-min-device-pixel-ratio: 2) {
+  .thumbnail .store {
+    height: 100%;
+  }
+  .title-search {
+    margin: 5px;
+  }
+  .holder {
+    text-align: center;
+    margin: 0;
+  }
+  .holder a {
+    font-size: 12px;
+    margin: 0px;
+  }
+  .jp-first {
+    display: none;
+  }
+  .jp-last {
+    display: none;
+  }
+  #btn-search {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer_banner {
+    display: none;
+  }
+  #no-found {
+    font-size: 7em;
+  }
+}

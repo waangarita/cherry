@@ -1,0 +1,33 @@
+
+@media (max-width: 768px) {
+	a.btn{
+		width: 100%;
+	    margin: 5px 0 5px 0 !important;
+	}
+
+	div.box-body{
+		overflow-x: hidden;
+	}
+
+	div.box-body .dataTables_wrapper .row:nth-of-type(2){
+		overflow-x: auto;
+	}
+
+	li.paginate_button.previous a{
+		font-size: 1px;
+	}
+
+	li.paginate_button.previous a:after{
+		content: "<";
+		font-size: 14px;
+	}
+
+	li.paginate_button.next a{
+		font-size: 1px;
+	}
+
+	li.paginate_button.next a:after{
+		content: ">";
+		font-size: 14px;
+	}
+}
