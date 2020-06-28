@@ -78,7 +78,7 @@
   <?php endforeach; ?>
 
   <?php if (!empty($references)) : ?>
-    <h6 class="title"> <?= __('TAMBIEN LE PUEDE INTERESAR') ?>  </h6>
+    <h6 class="title"> <?= __('OTRAS PERSONAS LO BUSCARON') ?>  </h6>
     <br>
     <div class="row column-3">
       <?php foreach ($references AS $product) : ?>
